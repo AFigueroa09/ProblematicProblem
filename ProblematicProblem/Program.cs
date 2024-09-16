@@ -93,7 +93,7 @@ namespace ProblematicProblem
                 Console.Write($"Ah got it! {userName}, your random activity is: {randomActivity}! Is this ok or do you want to grab another activity? Keep/Redo: ");
                 Console.WriteLine();
                 contValue = Console.ReadLine();
-                cont = seeListValue.ToLower() == "keep" ? false : true;
+                cont = contValue.ToLower() == "keep" ? false : true;
             }
         }
     } 
