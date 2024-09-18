@@ -44,7 +44,7 @@ namespace ProblematicProblem
                 Console.WriteLine();
                 Console.Write("Would you like to add any activities before we generate one? yes/no: ");
                 string addToListValue = Console.ReadLine();
-                bool addToList = contValue.ToLower() == "yes" ? true : false;
+                bool addToList = addToListValue.ToLower() == "yes" ? true : false;
                 Console.WriteLine();
 
                 while (addToList == true)
@@ -60,7 +60,7 @@ namespace ProblematicProblem
                     Console.WriteLine();
                     Console.WriteLine("Would you like to add more? yes/no: ");
                     addToListValue = Console.ReadLine();
-                    addToList = seeListValue.ToLower() == "yes" ? true : false;
+                    addToList = addToListValue.ToLower() == "yes" ? true : false;
                 }
             }
 
